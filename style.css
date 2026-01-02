@@ -11,69 +11,46 @@ body {
     font-family: "Times New Roman", Georgia, serif;
     font-size: 17px;
     line-height: 1.75;
-    text-align: left;
 }
 
-/* Headings as section separators (bold only) */
+/* Subtle academic hierarchy */
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-weight: 700;
-    letter-spacing: 0.04em;
-    margin: 2.4rem 0 0.8rem 0;
+    margin: 2rem 0 .8rem 0;
 }
 
-h1 { font-size: 1.9rem; }
-h2 { font-size: 1.35rem; }
-h3 { font-size: 1.1rem; }
-h4 { font-size: 1.05rem; }
-
-/* Tabs */
-
-.tabs {
-    margin: 1rem 0 2rem 0;
-}
-
-.tab {
-    margin-right: 2rem;
-    font-weight: 700;
-    letter-spacing: .12em;
-    border: none;
-}
-
-/* Remove all separators */
-
-hr { display: none; }
-
-/* Papers */
+h1 { font-size: 1.2em; }
+h2 { font-size: 1.1em; }
+h3 { font-size: 1.05em; }
 
 .paper {
-    padding: 1.4rem 0;
+    padding: 1.3rem 0;
 }
 
 .meta {
-    font-size: 0.95rem;
+    font-size: .95em;
     color: #333;
 }
 
-/* Links */
+/* Academic blue links */
 
 a {
-    color: #000;
+    color: #0033cc;
     text-decoration: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #0033cc;
 }
 
 a:hover {
-    background: #000;
+    background: #0033cc;
     color: #fff;
-    padding: 0 .2rem;
+    padding: 0 .15rem;
 }
 
 /* Mobile */
 
 @media (max-width: 700px) {
-    body {
-        padding: 2rem 1.25rem;
-    }
+    body { padding: 2rem 1.25rem; }
 }
+
 

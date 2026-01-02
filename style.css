@@ -1,85 +1,96 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
-
-
-@font-face {
-font-family:  "Times New Roman"
-}
-
-
+/* =======================================================
+   BLACK & WHITE EDITORIAL STYLE
+   ======================================================= */
 
 html {
-     scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
+/* ------------------ Base Layout ------------------ */
 
 body {
-     color: orange;
-     font-size: 24px;
-     font-family: Times New Roman, Arial;
-     line-height: 1.80857;
-     font-weight: normal;
-     background: #545150;
-     margin-left:1em;
-     margin-right:auto;
-     margin-top:0.5em;
+    margin: 0;
+    padding: 3rem 5rem;
+    max-width: 960px;
+    background: #ffffff;
+    color: #111111;
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
 }
 
-div.mar {
+/* ------------------ Headings ------------------ */
 
-     margin-top: -25px;
- 
-     margin-right: 10px;
- 
-     margin-bottom: 30px;
- 
-     margin-left: 100px;
- 
- }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-     letter-spacing: 0;
-     font-weight: normal;
-     position: relative;
-     padding: 0 0 10px 0;
-     font-weight: normal;
-     line-height: normal;
-     margin: 0
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 3rem 0 1rem 0;
+    letter-spacing: 0.03em;
+    color: #000;
 }
 
-h1 {
-     font-size: 22px
-}
+h1 { font-size: 2.4rem; border-bottom: 2px solid #000; padding-bottom: .5rem; }
+h2 { font-size: 2rem;   border-bottom: 1px solid #000; padding-bottom: .4rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.3rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
 
-h2 {
-     font-size: 20px
-}
-
-h3 {
-     font-size: 18px
-}
-
-h4 {
-     font-size: 15px
-}
-
-
+/* ------------------ Text ------------------ */
 
 p {
-     margin: 20px;
-     font-weight: 300;
-     font-size: 15px;
-     line-height: 24px;
+    margin: 1.4rem 0;
+    color: #222;
 }
 
+/* ------------------ Links ------------------ */
+
 a {
-     color: orange;
-     text-decoration: underline;
-     outline: none !important;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    transition: all 0.15s ease;
 }
+
+a:hover {
+    background: #000;
+    color: #fff;
+    padding: 0 .2rem;
+}
+
+/* ------------------ Lists ------------------ */
+
+ul, ol {
+    margin: 2rem 0 2rem 2rem;
+}
+
+/* ------------------ Code & Quotes ------------------ */
+
+pre, code {
+    font-family: "Courier New", monospace;
+    background: #f4f4f4;
+    padding: .4rem .6rem;
+    border: 1px solid #ddd;
+}
+
+blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 4px solid #000;
+    color: #333;
+}
+
+/* ------------------ Utility ------------------ */
+
+div.mar {
+    margin: 3rem auto;
+    max-width: 760px;
+}
+
+/* ------------------ Horizontal Rule ------------------ */
+
+hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 3rem 0;
+}
+

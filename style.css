@@ -1,54 +1,66 @@
-/* =======================================================
-   BLACK & WHITE EDITORIAL STYLE
-   ======================================================= */
-
 html {
     scroll-behavior: smooth;
 }
 
-/* ------------------ Base Layout ------------------ */
-
 body {
     margin: 0;
     padding: 3rem 5rem;
-    max-width: 960px;
+    max-width: 900px;
     background: #ffffff;
-    color: #111111;
+    color: #111;
     font-family: "Times New Roman", Georgia, serif;
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 17px;
+    line-height: 1.75;
+    text-align: left;
 }
 
-/* ------------------ Headings ------------------ */
+/* Headings as section separators (bold only) */
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-    margin: 3rem 0 1rem 0;
-    letter-spacing: 0.03em;
-    color: #000;
+h1, h2, h3, h4 {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 2.4rem 0 0.8rem 0;
 }
 
-h1 { font-size: 2.4rem; border-bottom: 2px solid #000; padding-bottom: .5rem; }
-h2 { font-size: 2rem;   border-bottom: 1px solid #000; padding-bottom: .4rem; }
-h3 { font-size: 1.6rem; }
-h4 { font-size: 1.3rem; }
-h5 { font-size: 1.1rem; }
-h6 { font-size: 1rem; }
+h1 { font-size: 1.9rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1.05rem; }
 
-/* ------------------ Text ------------------ */
+/* Tabs */
 
-p {
-    margin: 1.4rem 0;
-    color: #222;
+.tabs {
+    margin: 1rem 0 2rem 0;
 }
 
-/* ------------------ Links ------------------ */
+.tab {
+    margin-right: 2rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    border: none;
+}
+
+/* Remove all separators */
+
+hr { display: none; }
+
+/* Papers */
+
+.paper {
+    padding: 1.4rem 0;
+}
+
+.meta {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* Links */
 
 a {
     color: #000;
     text-decoration: none;
     border-bottom: 1px solid #000;
-    transition: all 0.15s ease;
 }
 
 a:hover {
@@ -57,40 +69,11 @@ a:hover {
     padding: 0 .2rem;
 }
 
-/* ------------------ Lists ------------------ */
+/* Mobile */
 
-ul, ol {
-    margin: 2rem 0 2rem 2rem;
-}
-
-/* ------------------ Code & Quotes ------------------ */
-
-pre, code {
-    font-family: "Courier New", monospace;
-    background: #f4f4f4;
-    padding: .4rem .6rem;
-    border: 1px solid #ddd;
-}
-
-blockquote {
-    margin: 2rem 0;
-    padding-left: 1.5rem;
-    border-left: 4px solid #000;
-    color: #333;
-}
-
-/* ------------------ Utility ------------------ */
-
-div.mar {
-    margin: 3rem auto;
-    max-width: 760px;
-}
-
-/* ------------------ Horizontal Rule ------------------ */
-
-hr {
-    border: none;
-    border-top: 1px solid #000;
-    margin: 3rem 0;
+@media (max-width: 700px) {
+    body {
+        padding: 2rem 1.25rem;
+    }
 }
 

@@ -3,14 +3,15 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 3rem 5rem;
-    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    max-width: 620px;
     background: #ffffff;
     color: #111;
     font-family: "Times New Roman", Georgia, serif;
     font-size: 17px;
     line-height: 1.75;
+    text-align: left;
 }
 
 /* Subtle academic hierarchy */
@@ -52,5 +53,6 @@ a:hover {
 @media (max-width: 700px) {
     body { padding: 2rem 1.25rem; }
 }
+
 
 

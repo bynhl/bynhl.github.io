@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background: #3f6f5a;
+    background: #3f6f5a; /* soft, comfortable green */
     font-family: "Times New Roman", Georgia, serif;
 }
 
@@ -18,10 +18,9 @@ body {
     color: #111;
     font-size: 17px;
     line-height: 1.75;
-    border-radius: 18px;
 }
 
-/* Subtle academic hierarchy */
+/* Subtle hierarchy */
 
 h1, h2, h3 {
     font-weight: 700;

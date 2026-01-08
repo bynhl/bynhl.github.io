@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background: #1c5794;
+    background: #79c9a7;
     font-family: "Times New Roman", Georgia, serif;
 }
 
@@ -43,13 +43,13 @@ h3 { font-size: 1.05em; }
 /* Academic blue links */
 
 a {
-    color: #79c9a7;
+    color: #0033cc;
     text-decoration: none;
     border-bottom: 1px solid #79c9a7;
 }
 
 a:hover {
-    background: #79c9a7;
+    background: #0033cc;
     color: #fff;
     padding: 0 .15rem;
 }
